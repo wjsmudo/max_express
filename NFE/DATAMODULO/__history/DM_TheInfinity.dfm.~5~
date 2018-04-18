@@ -1,0 +1,22 @@
+object Dm_Infinity: TDm_Infinity
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object Con_TheInfinity: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Catalog = ''
+    AutoCommit = False
+    Connected = True
+    HostName = 'localhost'
+    Port = 3050
+    Database = 
+      'C:\Users\w_mud\OneDrive\Documentos\Projetos Delphi\TheInfinity\N' +
+      'FE 4.0\BANCO DE DADOS\BD_NFE.fdb'
+    User = 'SYSDBA'
+    Password = 'masterkey'
+    Protocol = 'firebird-3.0'
+    LibraryLocation = 'C:\Windows\System32\FBCLIENT.DLL'
+    Left = 40
+    Top = 24
+  end
+end
